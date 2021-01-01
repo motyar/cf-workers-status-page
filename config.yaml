@@ -1,7 +1,7 @@
 settings:
-  title: 'Status Page'
+  title: 'Bruzu API Status Page'
   url: 'https://status.bruzu.com' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
+  logo: bruzu-logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
 
