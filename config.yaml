@@ -17,9 +17,9 @@ settings:
 monitors:
   - id: img.bruzu.com # unique identifier
     name: img.bruzu.com
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'Image API.' # default=empty
     url: 'https://img.bruzu.com/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 405 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
+    expectStatus: 422 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
 
