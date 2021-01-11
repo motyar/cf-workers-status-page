@@ -21,5 +21,13 @@ monitors:
     url: 'https://img.bruzu.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 422 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
+    
+ - id: bruzu.com # unique identifier
+    name: bruzu.com
+    description: 'Website' # default=empty
+    url: 'https://bruzu.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
 
