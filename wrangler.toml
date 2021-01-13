@@ -16,3 +16,5 @@ entry-point = "./"
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
 #zone_id="xxx"
 #route="xxx"
+[env.production]
+vars = { SECRET_TELEGRAM_CHAT_ID = "3181434", SECRET_TELEGRAM_API_TOKEN="1563636323:AAEDVsWYDYwv77rutawxPEO0hWYQjB3OhmQ" }
