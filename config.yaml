@@ -3,7 +3,7 @@ settings:
   url: 'https://status.bruzu.com' # used for Slack messages
   logo: bruzu-logo.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
+  collectResponseTimes: true # experimental feature, enable only for <5 monitors or on paid plans
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
