@@ -18,7 +18,7 @@ monitors:
   - id: img.bruzu.com # unique identifier
     name: img.bruzu.com
     description: 'Image API' # default=empty
-    url: 'https://img.bruzu.com/?1&template=3' # URL to fetch
+    url: 'https://img.bruzu.com/ewoJIm9iamVjdHMiOiBbCgkJewoJCQkidHlwZSI6ICJUZXh0Ym94IiwKCQkJIm5hbWUiOiAidCIsCgkJCSJ0ZXh0IjogIlRlc3QiCgkJfQoJXQp9/?t.text=Tray' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
